@@ -1,0 +1,71 @@
+  /*Calculator css*/
+  h1 {text-align: center;}
+  
+  #calculator {
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    margin:auto;
+    background-color: mistyrose;
+    border: solid 5px rosybrown;
+  }
+  
+  #screen {
+    background-color: pink;
+    height: 4rem;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.number {
+  background-color: lightpink;
+  width: 3rem;
+  height: 3rem;
+  margin: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 3px 3px rosybrown; }
+
+  .number:active {box-shadow: 0px 0px;}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;}
+
+#operators {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+
+#clear, #equal {
+    background-color: lightpink;}
+
+.operator { 
+  background-color: lightpink;
+  width: 3rem;
+  height: 3rem;
+  margin: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 3px 3px rosybrown; }
+
+  .operator:active {box-shadow: 0px 0px;}
+  
+  * {color: mediumvioletred;}
